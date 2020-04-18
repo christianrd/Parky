@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using ParkyApi.Models;
 
 namespace ParkyApi.Data
@@ -6,7 +7,6 @@ namespace ParkyApi.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
         }
 
         public DbSet<NationalPark> NationalParks { get; set; }
