@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ParkyApi.Models.Dto
+namespace ParkyApi.Models.Dtos
 {
     public class NationalParkDto
     {

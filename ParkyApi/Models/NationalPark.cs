@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ParkyApi.Models
 {
+#pragma warning disable CS1591 // Falta el comentario XML para el tipo o miembro visible públicamente
     public class NationalPark
     {
         [Key]
@@ -15,4 +16,5 @@ namespace ParkyApi.Models
         public DateTime Created { get; set; }
         public DateTime Established { get; set; }
     }
+#pragma warning restore CS1591 // Falta el comentario XML para el tipo o miembro visible públicamente
 }
